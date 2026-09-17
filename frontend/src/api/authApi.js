@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://task-manager-mern-three-azure.vercel.app";
 
 
 // ========================================
@@ -130,7 +130,7 @@ export const changePassword = async (
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-        "http://localhost:5000/api/auth/change-password",
+        `${API_URL}/api/auth/change-password`,
         {
             method: "PUT",
 

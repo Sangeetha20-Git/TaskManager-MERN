@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://task-manager-mern-three-azure.vercel.app";
 
 
 // ========================================
