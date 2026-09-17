@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-mern-three-azure.vercel.app";
+const API_URL = "import.meta.env.VITE_API_URL";
 
 
 // ========================================
